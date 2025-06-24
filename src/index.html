@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashreek A R</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="animation.css">
+</head>
+
+<body class="w-full bg-blue-50">
+    <!-- Header section -->
+    <header class="w-auto mx-2 md:mx-16 my-2 shadow-md backdrop-blur-md sticky top-2 rounded-md">
+
+        <!-- laptop -->
+        <div class="hidden lg:flex lg:flex-row justify-between m-4 items-center">
+            <h1 class="text-white bg-blue-800 p-1 border border-blue-800 mx-2 my-2 rounded-sm order-1 font-bold">ASHREEK
+            </h1>
+
+            <nav class="order-2">
+                <a href="#Home" class="nav-btn">Home</a>
+                <a href="#About" class="nav-btn">About</a>
+                <a href="#Skills" class="nav-btn">Skills</a>
+                <a href="#Projects" class="nav-btn">Projects</a>
+                <a href="#Contact" class="nav-btn">Contact</a>
+            </nav>
+
+            <input type="checkbox" class="hidden peer" id="dayandnight">
+           <label for="dayandnight"
+                    class="cursor-pointer rounded-lg border border-blue-700 font-bold shadow-inner text-blue-950 peer-checked:text-white bg-pink-50 mx-4 my-2 order-3 p-2 text-center peer-checked:hidden w-24">
+                    Day      
+                </label>
+                <label for="dayandnight"
+                    class="cursor-pointer rounded-lg border border-black shadow-lg font-bold text-white peer-checked:text-white bg-black mx-4 my-2 order-3 hidden peer-checked:block p-2 text-center w-24">
+                       Night      
+                </label>
+        </div>
+
+        <!-- for phone and ipad -->
+        <div class="font-bold flex flex-col lg:hidden order-1 items-center justify-center mb-4">
+            <div class="flex flex-row justify-between items-center w-[100%]">
+                <h1 class="text-white bg-blue-800 p-1 border-2 border-blue-800 mx-4 my-2 rounded-sm order-1">ASHREEK A R
+                </h1>
+
+                <input type="checkbox" class="hidden peer" id="dayandnight2">
+           <label for="dayandnight2"
+                    class="cursor-pointer rounded-lg border border-blue-700 shadow-inner font-bold text-blue-950 peer-checked:text-white bg-pink-50 mx-2 my-2 order-3 p-2 text-center peer-checked:hidden w-16 text-sm">
+                    Day      
+                </label>
+                <label for="dayandnight2"
+                    class="cursor-pointer rounded-lg border border-black shadow-lg font-bold text-white peer-checked:text-white bg-black mx-2 my-2 order-3 hidden peer-checked:block p-2 text-center w-16 text-sm">
+                       Night      
+                </label>
+
+            </div>
+
+
+            <nav class="order-2">
+                <a href="#Home" class="nav-btn">Home</a>
+                <a href="#About" class="nav-btn">About</a>
+                <a href="#Skills" class="nav-btn">Skills</a>
+                <a href="#Projects" class="nav-btn">Projects</a>
+                <a href="#Contact" class="nav-btn">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <!-- header section done -->
+
+    <!-- Home section -->
+
+    <section class="flex flex-wrap flex-col items-center bg-blue-50 h-auto md:h-[100vh] md:pt-16" id="Home">
+        <!-- created separately for mobile and desktop screens using display:hidden property -->
+        <!-- For mobile and ipad -->
+        <article class="order-2 flex flex-col items-center justify-center mt-6 md:hidden">
+            <h2 class="text-3xl xl:text-6xl text-center font-bold mb-4">Hello, I am Ashreek A R</h2>
+            <h3 class="text-base xl:text-2xl mb-4 text-center text-gray-500">Full Stack Development Student | Embedded
+                Development |
+                Robotics Enthusiast</h3>
+        </article>
+
+        <article class="order-1 md:hidden pt-28">
+            <img src="comps/ahreek images/Ashreek A R PHOTO.jpeg" alt="Ashreek-photo"
+                class="shadow-md h-56 w-56 rounded-lg transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-blue-500 hover:shadow-lg">
+        </article>
+
+        <article class="order-4 md:hidden mb-10">
+            <a href="comps/certificates/AshreekA R_InternshalaResume.pdf" download class="flex flex-row items-center justify-center">
+                <img src="comps/project images/resume.png" alt="resume-download-button"
+                    class="animate-bounce hover:animate-none hover:shadow-2xl size-10 rounded-full shadow-md transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <button class="social-btn hover:bg-blue-500 font-bold hover:font-extrabold hover:border hover:border-blue-500 rounded-lg hover:text-white p-2">Resume</button>
+            </a>
+        </article>
+
+        <article class="order-3 md:hidden">
+            <ul class="flex flex-wrap flex-row justify-center">
+                <a href="https://github.com/ashreek" class="fa fa-github social-btn size-14"></a>
+                <a href="https://www.linkedin.com/in/ashreek-a-r-38499a268/" class="fa fa-linkedin social-btn"></a>
+                <a href="https://www.facebook.com/ashreek.ar.9/" class="fa fa-facebook social-btn"></a>
+                <a href="https://x.com/a_ashreek" class="fa fa-twitter social-btn"></a>
+            </ul>
+        </article>
+
+        <!-- for desktop -->
+        <article class="hidden md:flex flex-row items-center justify-center w-full">
+
+            <article class="order-2">
+                <img src="comps/ahreek images/Ashreek A R PHOTO.jpeg" alt="Ashreek-photo"
+                    class="shadow-md md:h-44 md:w-44 lg:h-56 lg:w-56 rounded-lg transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-blue-500 hover:shadow-lg mr-20">
+            </article>
+
+            <article class="flex flex-col items-center justify-center order-1 p-10 mt-20">
+                <article class="flex flex-col items-center justify-center mt-10">
+                    <h2 class="text-3xl md:text-6xl text-center font-bold mb-4">Hello, I am Ashreek A R</h2>
+                    <h3 class="text-base md:text-2xl mb-4 text-center text-gray-500">Full Stack Development Student |
+                        Embedded Devloper |
+                        Robotics</h3>
+                </article>
+
+                <article class="">
+                    <ul class="flex flex-wrap flex-row justify-center">
+                        <a href="https://github.com/ashreek" class="fa fa-github social-btn size-14"></a>
+                        <a href="https://www.linkedin.com/in/ashreek-a-r-38499a268/" class="fa fa-linkedin social-btn"></a>
+                        <a href="https://www.facebook.com/ashreek.ar.9/" class="fa fa-facebook social-btn"></a>
+                        <a href="https://x.com/a_ashreek" class="fa fa-twitter social-btn"></a>
+                    </ul>
+                </article>
+
+                <article class="">
+                    <a href="comps/certificates/AshreekA R_InternshalaResume.pdf" download>
+                        <img src="comps/project images/resume.png" alt="resume-download-pic"
+                            class="social-btn animate-bounce hover:animate-none size-16 rounded-full shadow-md">
+                            <button class=" hover:bg-blue-500 font-bold hover:font-extrabold hover:border hover:border-blue-500 rounded-lg hover:text-white p-2">Resume</button>
+
+                        </a>
+                </article>
+
+            </article>
+        </article>
+    </section>
+    <!-- Home section ends here -->
+
+    <!-- About section starts here -->
+    <section
+        class=" bg-pink-50 w-auto shadow-md rounded-md md:h-[100vh] flex flex-col items-center pt-28 md:pt-28 mx-4"
+        id="About">
+        <h2 class="text-3xl md:text-6xl font-bold mb-4 mx-10">About me</h2>
+
+        <section class="md:mx-16 my-4 flex flex-col md:flex-row justify-center items-center">
+            <article class="flex flex-wrap flex-col order-2 justify-center items-center my-5 w-[60vw]">
+                <input type="checkbox" class="hidden peer" id="read-more">
+                <p class="text-base md:text-xl mb-4 text-gray-500 peer-checked:hidden mx-1 md:mx-4 md:text-justify">
+                    My name is Ashreek A R, I am a full stack Devlopement Student and I am currently learning MERN stack and also doing DSA and OOPs. I worked on Embedded System Projects and core electrical projects like Battery Management System.
+                </p>
+                <p class="text-base text-start md:text-justify md:text-xl mb-4 text-gray-500 hidden mx-1 md:mx-4 peer-checked:inline">
+                    My name is Ashreek A R, I am a full stack Devlopement Student and I am currently learning MERN stack and also doing DSA and OOPs. I worked on Embedded System Projects and core electrical projects like Battery Management System. I did my engineering from East West Institute of Technology, Bengaluru. I have keen  interest in fields like Software devlopemnt, Embedded Systems and IoT. I also devloped few python projects in my college days as part of my skill lab program. But now I am interested in learnig the full process and devloping a exceptional skills in Software devlopemt and maintainace.
+                </p>
+                <!-- While creating this section learnt about peer and grouping of elemnts this helps in features like toggle -->
+                 <!-- Implemented the same feature in header also for dark and light mode -->
+                <label class="peer-checked:hidden text-base md:text-xl self-center ml-4 bg-blue-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 rounded-xl p-2 font-bold text-white shadow-lg border border-blue-500 hover:border-indigo-500 w-44 text-center" for="read-more">Read More</label>
+                <label class="hidden peer-checked:inline text-base md:text-xl self-center ml-4 bg-blue-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 rounded-xl p-2 font-bold text-white shadow-lg border border-blue-500 hover:border-indigo-500 w-44 text-center" for="read-more">Read Less</label>
+            </article>
+            <img src="comps/ahreek images/ashreek-a-r.jpeg" alt="Ashreek-a-r"
+                class="shadow-md h-60 md:h-72 w-44 md:w-56 rounded-lg transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-blue-500 hover:shadow-lg order-1">
+        </section>
+    </section>
+    <!-- About section ends here -->
+
+    <!-- Skills section starts here -->
+    <section class="h-auto w-100% flex flex-wrap flex-col items-center text-center pt-28 xl:h-[100vh] md:pt-28" id="Skills">
+        <article class="w-full h-auto flex flex-wrap flex-col items-center text-center">
+            <h2 class="text-black font-bold text-3xl md:text-4xl mb-12 md:mb-24">Skills</h2>
+        </article>
+
+        <section class="w-full flex flex-wrap justify-evenly">
+            <article class="md:w-44 w-24 flex flex-col items-center mb-12">
+                <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_640.png" alt="HTML"
+                    class="md:w-44 md:h-44 w-24 h-24">
+                <h3 class="text-2xl font-bold text-black">HTML</h3>
+                <p class="text-2xl font-bold text-gray-500">75%</p>
+                <div class="border-2 border-black rounded-md w-[100%] h-3 bg-blue-700">
+                    <div class="h-1 border-4 border-yellow-400 rounded-2xl md:mb-12 mb-4 w-[75%] grow-75">
+                    </div>
+                </div>
+            </article>
+
+            <article class="md:w-44 w-24 flex flex-col items-center mb-12">
+                <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="CSS"
+                    class="md:w-44 md:h-44 w-24 h-24">
+                <h3 class="text-2xl font-bold text-black">CSS</h3>
+                <p class="text-2xl font-bold text-gray-500">60%</p>
+                <div class="border-2 border-black rounded-md w-[100%] h-3 bg-blue-700">
+                    <div class="h-1 border-4 border-yellow-400 rounded-2xl mb-12 w-[60%] grow-60"></div>
+                </div>
+            </article>
+
+            <article class="md:w-44 w-24 flex flex-col items-center mb-12">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png"
+                    alt="Tailwind CSS" class="md:w-44 md:h-44 w-24 h-24">
+                <h3 class="text-2xl font-bold text-black hidden md:inline">Tailwind CSS</h3>
+                <h3 class="text-2xl font-bold text-black md:hidden">Tailwind</h3>
+                <p class="text-2xl font-bold text-gray-500">60%</p>
+                <div class="border-2 border-black rounded-md w-[100%] h-3 bg-blue-700">
+                    <div class="h-1 border-4 border-yellow-400 rounded-2xl mb-12 w-[60%] grow-60"></div>
+                </div>
+            </article>
+
+            <article class="md:w-44 w-24 flex flex-col items-center mb-12">
+                <img src="https://cloud.google.com/static/cpp/images/cpp-logo.png" alt="C++"
+                    class="md:w-44 md:h-44 w-24 h-24">
+                <h3 class="text-2xl font-bold text-black">C++</h3>
+                <p class="text-2xl font-bold text-gray-500">80%</p>
+                <div class="border-2 border-black rounded-md w-[100%] h-3 bg-blue-700">
+                    <div class="h-1 border-4 border-yellow-400 rounded-2xl mb-12 w-[80%] grow-80"></div>
+                </div>
+            </article>
+
+            <article class="md:w-44 w-24 flex flex-col items-center mb-12">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/960px-Matlab_Logo.png"
+                    alt="MATLAB" class="md:w-44 md:h-44 w-24 h-24">
+                <h3 class="text-2xl font-bold text-black">MATLAB</h3>
+                <p class="text-2xl font-bold text-gray-500">85%</p>
+                <div class="border-2 border-black rounded-md w-[100%] h-3 bg-blue-700">
+                    <div class="h-1 border-4 border-yellow-400 rounded-2xl mb-12 w-[85%] grow-85"></div>
+                </div>
+            </article>
+        </section>
+    </section>
+    <!-- skills section ends here -->
+
+    <!-- Certifications section -->
+    <section
+        class=" bg-pink-50 w-auto shadow-md rounded-md min-h-screen flex flex-col items-center pt-10 md:pt-28 mx-4"
+        id="Certificate">
+        <article class="w-full h-auto flex flex-wrap flex-col gap-6 items-center text-center">
+            <h2 class="text-black font-bold text-3xl md:text-4xl mb-6">Certificates</h2>
+        </article>
+
+        <section class="w-full flex flex-wrap justify-evenly items-center">
+
+            <a href="comps/certificates/vlsi design engineer.pdf" target="_blank"
+                class="flex items-center border rounded-md mb-12 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 bg-pink-50 hover:bg-green-50 shadow-lg border-green-300 shadow-green-300 hover:border-green-300 md:w-64 w-72 justify-center">
+                <article class="flex flex-col items-center mb-12 justify-center p-2">
+                    <img src="https://rooman.net/wp-content/uploads/2024/04/cropped-Rooman-Logo.png"
+                        alt="Rooman-technology" class="w-44 h-44">
+                    <h3 class="inline text-xl md:text-2xl font-bold text-black">VLSI</h3>
+                    <p class="text-base text-gray-500 text-center md:inline hidden">Very Large System Integration Design Engineer</p>
+                    <p class="text-base text-gray-500 text-center inline md:hidden">VLSI Design Engineering Intern</p>
+                    <p
+                        class="text-base font-semibold border border-green-700 rounded-xl p-2 shadow-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 mt-4">
+                        Click to view</p>
+                </article>
+            </a>
+
+            <a href="comps/certificates/Full Stack Development_ Let's begin Training - Certificate of Completion.pdf"
+                target="_blank"
+                class="flex items-center border rounded-md mb-12 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 bg-pink-50 hover:bg-blue-50 shadow-lg border-blue-300 shadow-blue-300 hover:border-blue-300 md:w-64 w-72 justify-center">
+                <article class="flex flex-col items-center mb-12 justify-center p-2">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/8/8b/Internshala_company_logo.png"
+                        alt="Internshala_company_logo" class="w-44 h-44">
+                    <h3 class="inline text-xl md:text-2xl font-bold text-black">FSD</h3>
+                    <p class="text-base text-gray-500 text-center">Full Stack Development Lets begin</p>
+                    <p
+                        class="text-base font-semibold border border-blue-700 rounded-xl p-2 shadow-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 mt-4">
+                        Click to view</p>
+                </article>
+            </a>
+
+            <a href="comps/certificates/vlsi design engineer.pdf" target="_blank"
+                class="flex items-center border rounded-md mb-12 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 bg-pink-50 hover:bg-orange-100 shadow-lg border-orange-300 shadow-orange-300 hover:border-orange-300 md:w-64 w-72 justify-center">
+                <article class="flex flex-col items-center mb-12 justify-center p-2">
+                    <img src="https://karunadutechnologies.com/assets/images/logo.png" alt="Karunaadu Technology"
+                        class="w-44 h-44">
+                    <h3 class="inline text-xl md:text-2xl font-bold text-black text-center">IoT</h3>
+                    <p class="text-base text-gray-500 text-center md:hidden">Embedded Systems Devloper</p>
+                    <p class="text-base text-gray-500 text-center hidden md:inline">Embedded Systems Devloper Intern</p>
+                    <p
+                        class="text-base font-semibold border border-orange-700 rounded-xl p-2 shadow-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 mt-4">
+                        Click to view</p>
+                </article>
+            </a>
+
+            <a href="comps/certificates/EWIT Electrical Engineer Ashreek.pdf" target="_blank"
+                class="flex items-center border rounded-md mb-12 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 bg-pink-50 hover:bg-purple-100 shadow-lg border-purple-300 shadow-purple-300 hover:border-purple-300 md:w-64 w-72 justify-center">
+                <article class="flex flex-col items-center mb-12 justify-center p-2">
+                    <img src="https://ewit.edu.in/wp-content/uploads/2022/05/logo.png" alt="EWIT Logo"
+                        class="w-44 h-44">
+                    <h3 class="inline text-xl md:text-2xl font-bold text-black">EEE</h3>
+                    <p class="text-base text-gray-500 text-center">Electrical and Electronics Engineer</p>
+                    <p
+                        class="text-base font-semibold border border-purple-700 rounded-xl p-2 shadow-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 mt-4">
+                        Click to view</p>
+                </article>
+            </a>
+
+        </section>
+    </section>
+    <!-- Certificate section ends -->
+
+    <!-- Project Section -->
+    <section class="w-full flex flex-col items-center pt-28  min-h-screen bg-blue-50 md:pt-28" id="Projects">
+        <article class="w-full h-auto flex flex-wrap flex-col items-center text-center">
+            <h2 class="text-black font-bold text-3xl md:text-4xl">Projects</h2>
+        </article>
+
+        <section class="w-full flex flex-wrap justify-evenly items-center gap-6 max-w-[100vw] mt-12">
+
+            <article
+                class="md:w-64 w-80 flex md:flex-col flex-row items-center mb-6 md:mb-12 border-2 rounded-xl p-2 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 bg-pink-50 hover:bg-green-50 shadow-lg border-green-300 shadow-green-300 hover:border-green-300">
+                <img src="comps/project images/netflix clone.jpg" alt="netflix project" class="rounded-full w-[160px] h-[160px]">
+                <div class="flex flex-col items-center">
+                <h3 class="inline text-xl font-bold text-black text-center">Netflix Clone</h3>
+                <p class="text-base text-gray-500 text-center hidden md:inline">Created a Netflix clone using HTML, CSS.</p>
+                <p
+                    class="text-sm md:text-base font-semibold border border-green-700 rounded-xl p-2 shadow-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 mt-4 text-center md:w-32 w-28">
+                    Click to view</p>
+                </div>
+            </article>
+
+            <article
+                class="md:w-64 w-80 flex md:flex-col flex-row items-center mb-6 md:mb-12 border-2 rounded-xl p-2 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 bg-pink-50 hover:bg-green-50 shadow-lg border-green-300 shadow-green-300 hover:border-green-300">
+                <img src="comps/project images/youtbe.png" alt="youtube project" class="rounded-full w-[160px] h-[160px]">
+                <div class="flex flex-col items-center">
+                <h3 class="inline text-xl font-bold text-black text-center">YouTube clone</h3>
+                <p class="text-base text-gray-500 text-center hidden md:inline">Created a Youtube clone using HTML, CSS.</p>
+                <p
+                    class="text-sm md:text-base font-semibold border border-green-700 rounded-xl p-2 shadow-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 mt-4 text-center md:w-32 w-28">
+                    Click to view</p>
+                </div>
+            </article>
+
+            <article
+                class="md:w-64 w-80 flex md:flex-col flex-row items-center mb-6 md:mb-12 border-2 rounded-xl p-2 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 bg-pink-50 hover:bg-green-50 shadow-lg border-green-300 shadow-green-300 hover:border-green-300">
+                <img src="comps/project images/sample-project-maps.PNG" alt="maps project" class="rounded-full w-[160px] h-[160px]">
+                <div class="flex flex-col items-center">
+                <h3 class="inline text-xl font-bold text-black text-center">Maps application</h3>
+                <p class="text-base text-gray-500 text-center hidden md:inline">Created a maps application using HTML, CSS, JS and mapbox API.</p>
+                <p
+                    class="text-sm md:text-base font-semibold border border-green-700 rounded-xl p-2 shadow-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 mt-4 text-center md:w-32 w-28">
+                    Click to view</p>
+                </div>
+            </article>
+
+            <article
+                class="md:w-64 w-80 flex md:flex-col flex-row items-center mb-6 md:mb-12 border-2 rounded-xl p-2 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 bg-pink-50 hover:bg-green-50 shadow-lg border-green-300 shadow-green-300 hover:border-green-300">
+                <img src="comps/project images/charger-balncer.jpg" alt="charging image" class="rounded-full w-[160px] h-[160px]">
+                <div class="flex flex-col items-center">
+                <h3 class="inline text-xl font-bold text-black text-center">BMS</h3>
+                <p class="text-base text-gray-500 text-center hidden md:inline">Created a BMS using Active cell balancing.</p>
+                <p
+                    class="text-sm md:text-base font-semibold border border-green-700 rounded-xl p-2 shadow-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 mt-4 text-center md:w-32 w-28">
+                    Click to view</p>
+                </div>
+            </article>
+
+            <!-- Not had enough projects to upload to left some sample project cards -->
+            <article
+                class="md:w-64 w-80 flex md:flex-col flex-row items-center mb-6 md:mb-12 border-2 rounded-xl p-2 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 bg-pink-50 hover:bg-green-50 shadow-lg border-green-300 shadow-green-300 hover:border-green-300">
+                <img src="comps/project images/netflix clone.jpg" alt="project" class="rounded-full w-[160px] h-[160px]">
+                <div class="flex flex-col items-center">
+                <h3 class="inline text-xl font-bold text-black text-center">Sample project 1</h3>
+                <p class="text-base text-gray-500 text-center hidden md:inline">Created a Netflix clone using HTML, CSS.</p>
+                <p
+                    class="text-sm md:text-base font-semibold border border-green-700 rounded-xl p-2 shadow-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 mt-4 text-center md:w-32 w-28">
+                    Click to view</p>
+                </div>
+            </article>
+
+            <article
+                class="md:w-64 w-80 flex md:flex-col flex-row items-center mb-6 md:mb-12 border-2 rounded-xl p-2 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 bg-pink-50 hover:bg-green-50 shadow-lg border-green-300 shadow-green-300 hover:border-green-300">
+                <img src="comps/project images/netflix clone.jpg" alt="image" class="rounded-full w-[160px] h-[160px]">
+                <div class="flex flex-col items-center">
+                <h3 class="inline text-xl font-bold text-black text-center">Sample project 2</h3>
+                <p class="text-base text-gray-500 text-center hidden md:inline">Created a Netflix clone using HTML, CSS.</p>
+                <p
+                    class="text-sm md:text-base font-semibold border border-green-700 rounded-xl p-2 shadow-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 mt-4 text-center md:w-32 w-28">
+                    Click to view</p>
+                </div>
+            </article>
+
+            <article
+                class="md:w-64 w-80 flex md:flex-col flex-row items-center mb-6 md:mb-12 border-2 rounded-xl p-2 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 bg-pink-50 hover:bg-green-50 shadow-lg border-green-300 shadow-green-300 hover:border-green-300">
+                <img src="comps/project images/netflix clone.jpg" alt="image" class="rounded-full w-[160px] h-[160px]">
+                <div class="flex flex-col items-center">
+                <h3 class="inline text-xl font-bold text-black text-center">Sample project 3</h3>
+                <p class="text-base text-gray-500 text-center hidden md:inline">Created a Netflix clone using HTML, CSS.</p>
+                <p
+                    class="text-sm md:text-base font-semibold border border-green-700 rounded-xl p-2 shadow-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 mt-4 text-center md:w-32 w-28">
+                    Click to view</p>
+                </div>
+            </article>
+
+        </section>
+    </section>
+    <!-- Project section ends here -->
+
+    <!-- Contact section starts here -->
+    <section id="Contact"
+        class=" bg-pink-50 w-auto shadow-md rounded-md min-h-screen flex flex-col items-center pt-24 md:pt-28 mx-4">
+        <h2 class="text-black font-bold text-4xl text-center">Want to say something?</h2>
+
+        <form action="#" class="flex flex-col gap-4 items-center mt-4">
+            <div class="flex flex-col md:flex-row items-center w-full">
+                <input type="text" id="name" placeholder="Ashreek A R"
+                    class="bg-blue-50 rounded-xl p-3 w-52 shadow-2xl focus:outline-none focus:ring-2 focus:ring-blue-500 peer order-2">
+                <label for="name" class="mr-1 md:w-32 peer-focus:font-bold peer-focus:text-blue-700 order-1">Your name</label>
+            </div>
+
+            <div class="flex flex-col md:flex-row items-center w-full">
+                <input type="email" id="Email" placeholder="ashreek@example.com" class="bg-blue-50 rounded-xl p-3 w-52 shadow-2xl focus:outline-none focus:ring-2 focus:ring-blue-500 peer order-2">
+                <label for="Email" class="mr-1 md:w-32 peer-focus:font-bold peer-focus:text-blue-700 order-1">Your email</label>
+            </div>
+
+            <div class="flex flex-col md:flex-row items-center w-full">
+                <textarea name="Message" id="Message" placeholder="Write your message here..." rows="5" class="bg-blue-50 rounded-xl p-3 w-52 shadow-2xl focus:outline-none focus:ring-2 focus:ring-blue-500 peer order-2"></textarea>
+                <label for="Message" class="mr-1 md:w-32 peer-focus:font-bold peer-focus:text-blue-700 order-1">Message</label>
+            </div>
+            <Button type="submit"
+                class="bg-blue-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 rounded-xl p-2 text-base font-bold text-white shadow-lg border border-blue-500 hover:border-indigo-500 w-24">Submit</Button>
+        </form>
+    </section>
+    <!-- Contact section ends here -->
+
+    <!-- footer starts here -->
+    <footer
+        class="w-full px-4 text-black pt-8 flex flex-col justify-center items-center md:px-12 pb-20 bg-blue-50 mx-auto text-center py-20">
+        <h3 class="text-3xl font-semibold mb-4">Get in Touch</h3>
+
+            <a href="tel:+917019065181"
+                class="bg-blue-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 rounded-xl p-2 text-base font-bold text-white shadow-lg border border-blue-500 hover:border-indigo-500 mb-4 w-24">
+                Call Me
+            </a>
+
+        <a href="mailto:ashreek@example.com"
+            class="bg-blue-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 rounded-xl p-2 text-base font-bold text-white shadow-lg border border-blue-500 hover:border-indigo-500 mb-4 w-24">
+            Email Me
+        </a>
+
+        <p class="mt-10">&copy; 2025 Ashreek A R. All rights reserved.</p>
+    </footer>
+    <!-- footer ends here -->
+
+</body>
+
+</html>

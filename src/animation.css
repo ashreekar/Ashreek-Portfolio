@@ -1,0 +1,36 @@
+
+.grow-60 {
+  animation: grow60 2s ease-in-out forwards;
+}
+
+.grow-75 {
+  animation: grow75 2s ease-in-out forwards;
+}
+
+.grow-80 {
+  animation: grow80 2s ease-in-out forwards;
+}
+
+.grow-85 {
+  animation: grow85 2s ease-in-out forwards;
+}
+
+@keyframes grow60 {
+  0% { width: 0%; }
+  100% { width: 60%; }
+}
+
+@keyframes grow75 {
+  0% { width: 0%; }
+  100% { width: 75%; }
+}
+
+@keyframes grow80 {
+  0% { width: 0%; }
+  100% { width: 80%; }
+}
+
+@keyframes grow85 {
+  0% { width: 0%; }
+  100% { width: 85%; }
+}

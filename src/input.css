@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@layer components{
+    /* this ting will be in components section in output.css */
+.nav-btn{
+    @apply p-1 md:p-3 font-bold border-white border-solid hover:bg-blue-500 hover:text-white hover:border hover:rounded-lg hover:border-solid hover:border-blue-500
+}
+
+.social-btn{
+    @apply md:h-14 md:w-14 h-14 w-14
+}
+
+}
